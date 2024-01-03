@@ -31,10 +31,10 @@ environment:
       - patch
       - perl
       - python3
+      - rust~1.73
       - wasi-libc
       - xz-dev
       - zlib-dev
-      - rust~1.72
 
 pipeline:
   - uses: fetch
